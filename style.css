@@ -10,7 +10,6 @@
 .container{
     max-width: 1050px;
     margin: auto;
-   
 
 }
 .head{
@@ -308,8 +307,10 @@ border: none;
 height: 928px;
 display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
 /* left: 195px; */
-padding: 160px 160px;
+/* padding: 160px 160px; */
 gap: 96px;
 opacity: 0px;
 
@@ -445,9 +446,7 @@ opacity: 0px;
 .top5{
     width: 1041px;
 height: 170px;
-/* left: 195px; */
-padding: 50px 0px 50px 0px;
-/* opacity: 0px; */
+/* padding: 50px; */
 display: flex;
 gap: 30px;
 
@@ -463,5 +462,134 @@ gap: 40px;
 display: flex;
 align-items: center;
 
+
+}
+.outertoper5{
+    width: 1050px;
+height: 270px;
+left: 195px;
+padding: 50px;
+gap: 0px;
+opacity: 0px;
+
+}
+.lst5{
+    height: 170px;
+    width: 148px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column
+}
+.star{
+    display: flex;
+    width: 182px;
+height: 26px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+}
+.star h5{
+    display: flex;
+    align-items: center
+}
+.str{
+    width: 50px;
+height: 26px;
+padding: 5px 0px 0px 0px;
+gap: 5px;
+border-radius: 20px;
+opacity: 0px;
+background: #2D4059;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center
+
+}
+.gldstr{
+    color: #FFCE31;
+ 
+}
+.star_no{
+    width: 203px;
+    display: flex;
+    justify-content: space-between;
+}
+.dl{
+    width: 83px;
+height: 24px;
+gap: 10px;
+opacity: 0px;
+display: flex;
+align-content: center;
+justify-content: space-between;
+}
+.dlicn{
+    width: 16px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+color: #737373;
+
+
+}
+.sale{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    
+}
+.dollar{
+    display: flex;
+}
+.lgtdollar{
+    width: 52px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+.reddollar{
+    width: 45px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+        font-weight: 700;
+        font-size: 16px; 
+        color: #FFAB71;
+}
+.lmbtn{
+    width: 141px;
+height: 44ppx;
+padding: 10px 20px;
+gap: 10px;
+border-radius: 37px;
+opacity: 0px;
+background-color: transparent;
+border: 1px solid #96BB7C;
+display: flex;
+align-items: center;
+justify-items: center;
+}
+.lm{
+    width: 82px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-weight: 700;
+font-size: 14px;
+color: #96BB7C;
+background: transparent;
+border: none;
+/* display: flex;
+align-items: center;
+justify-items: center; */
 
 }
