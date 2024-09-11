@@ -149,6 +149,9 @@ header {
   font-weight: 500;
   border: 1px;
 }
+.ham {
+  display: none;
+}
 
 .container_content {
   display: flex;
@@ -788,12 +791,6 @@ footer {
   line-height: 24px;
 }
 
-.txt {
-  width: 567px;
-  height: 58px;
-  border: none;
-}
-
 .mail {
   max-width: 688px;
   height: 58px;
@@ -803,6 +800,11 @@ footer {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
+}
+.txt {
+  width: 567px;
+  height: 58px;
+  border: none;
 }
 
 .sub {

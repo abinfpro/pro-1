@@ -34,6 +34,11 @@
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
   }
+  nav ul li .ham {
+    display: block;
+    color: #ffff;
+  }
+
   .product_list {
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
@@ -85,7 +90,7 @@
     gap: 30px;
     left: -350px;
     top: 0;
-    width: 250px;
+    width: 150px;
     background-color: var(--primary-color);
     height: 100%;
     transition: ease-in-out 0.4s;
@@ -93,6 +98,9 @@
     margin-top: 70px;
     text-align: center;
     opacity: 0;
+  }
+  nav ul li a {
+    color: #ffff;
   }
   #check:checked ~ nav ul {
     opacity: 100;
@@ -111,8 +119,10 @@
 
   .txt {
     max-width: 375px;
+    /* height: 58px; */
     margin-bottom: 10px;
   }
+
   .container_content.more h2 {
     font-weight: 700;
     font-size: 28px;
@@ -148,9 +158,6 @@
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
   }
-}
-
-@media screen and (max-width: 525px) {
   .txt {
     max-width: 165px;
     height: 40px;
@@ -160,5 +167,46 @@
   }
   .new {
     right: 1px;
+  }
+  form {
+    display: flex;
+  }
+  .figmamade h6 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 409px) {
+  .banner_content h1 {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .newletter h2 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .container_content h2 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .more h2 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .about h5 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .btn {
+    padding: 13px 10px;
+    font-size: 10px;
+  }
+  .btn.transparent-btn {
+    padding: 13px 30px;
+  }
+  .learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
