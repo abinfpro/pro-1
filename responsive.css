@@ -108,6 +108,7 @@
   #check:checked ~ nav ul {
     opacity: 100;
     left: 0;
+    align-items: center;
   }
 
   #check:checked ~ label #ham-btn {
@@ -164,7 +165,7 @@
   }
   .top5 {
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
+    /* place-items: center; */
   }
   .txt {
     max-width: 165px;
@@ -231,6 +232,10 @@
   }
   .monthly_plan{
     width: 266px;
+  }
+  .figmamade h6 {
+    font-weight: 500;
+    font-size: 12px;
   }
   
 
