@@ -40,6 +40,13 @@
     font-weight: 700;
     font-size: 14px;
   }
+  /* #click:checked ~ .dropdown{ 
+    position: relative;
+    display: block;
+    top: -75px;
+    left: 100px;
+    height: 180px;
+  } */
 
   .product_list {
     grid-template-columns: repeat(2, 1fr);
@@ -141,10 +148,26 @@
   .hamburger {
     visibility: visible;
   }
-  header{
+  header {
     position: fixed;
     width: 100%;
     z-index: 100;
+  }
+  #click:checked ~ .dropdown{ 
+    visibility: visible;
+    top: -75px;
+    left: 100px;
+    height: 180px;
+  
+  }
+}
+@media screen and (min-width: 797px) 
+{
+
+  .dropdown_parent:hover .dropdown{
+    visibility: visible;
+    color: #fff;
+    opacity: 2;
   }
 }
 @media screen and (max-width: 550px) {
@@ -184,8 +207,6 @@
     font-weight: 500;
     font-size: 14px;
   }
- 
- 
 }
 @media screen and (max-width: 409px) {
   .banner_content h1 {
@@ -224,19 +245,17 @@
     font-weight: 700;
     font-size: 13px;
   }
-  .new{
+  .new {
     right: 20px;
   }
-  .banner_row{
+  .banner_row {
     padding: 80px 0px 80px 0px;
   }
-  .monthly_plan{
+  .monthly_plan {
     width: 266px;
   }
   .figmamade h6 {
     font-weight: 500;
     font-size: 12px;
   }
-  
-
 }
