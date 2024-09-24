@@ -10,6 +10,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
+p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 :root {
   --primary-color: #96bb7c;
   --head-color: #252b42;
@@ -239,9 +244,35 @@ position: relative;
 }
 .container_img {
   width: 50%;
+  position: relative;
+
 }
+
 .container_img img {
   width: 100%;
+  border-radius: 20px;
+}
+
+.container_img button{
+  /* position: absolute; */
+  /* bottom: calc(50% - 37.5px); */
+  /* left:  calc(50% - 37.5px); */
+  width: 92px;
+  height: 92px;
+  border-radius: 47px;
+  border: none;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+.a {width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: calc(50% - 46px);
+    justify-content: center
+}
+.video_icon{
+  font-size: 25px;
 }
 
 .redline {
@@ -318,6 +349,7 @@ position: relative;
   display: flex;
   align-items: center;
   gap: 25px;
+  
 }
 .container_img {
   width: 50%;
@@ -354,6 +386,9 @@ position: relative;
 }
 
 .ig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   padding: 12px 12px;
@@ -378,6 +413,9 @@ position: relative;
 }
 
 .product_img label {
+  max-width: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   top: 20px;
   left: 20px;
   border: none;
@@ -460,6 +498,9 @@ position: relative;
   text-align: center;
 }
 .monthly_plan p {
+  max-width: 204px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: center;
   font-weight: 700;
   font-size: 14px;

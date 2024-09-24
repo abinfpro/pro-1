@@ -34,6 +34,16 @@
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
   }
+  .container_img button{
+    width: 75px;
+    height: 75px;
+  }
+  .a{
+    top: calc(50% - 37.5px);
+  }
+  .video_icon{
+    font-size: 20px;
+  }
   nav ul li .ham {
     display: block;
     color: #ffff;
@@ -173,6 +183,16 @@
 @media screen and (max-width: 550px) {
   .main_png {
     grid-template-columns: 1fr;
+  }
+  .container_img button{
+    width: 50px;
+    height: 50px;
+  }
+  .a{
+    top: calc(50% - 25px);
+  }
+  .video_icon{
+    font-size: 10px;
   }
   .part {
     flex-direction: column;
